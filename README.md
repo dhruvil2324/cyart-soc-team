@@ -9,6 +9,8 @@ This project demonstrates simulated cyber attacks performed from Kali Linux agai
 * Kali Linux (Attacker + Wazuh Manager)
 * Ubuntu (Target)
 * Windows 11 (Target)
+* Metasploitable (Target)
+* DVWA (Target)
 * VirtualBox Host-only Network
 
 ## Attacks Performed
