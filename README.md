@@ -48,5 +48,5 @@ Wazuh successfully detected:
 ## Report
 
 Full report available in:
-`Week 2 -SOC Lab – Attack Detection Report.pdf`
+`SOC Lab - Week 2.pdf`
 
