@@ -40,6 +40,36 @@ cyart-soc-team/
 │   ├── Theory/
 │   └── Practical/
 ```
+
+## 🔁 End-to-End SOC Workflow
+
+1. **Attack Simulation**
+   - Exploited Metasploitable2 using Metasploit
+
+2. **Detection**
+   - Wazuh detected suspicious activity (Event ID 4672, alerts)
+
+3. **Threat Hunting**
+   - Investigated processes and network connections using Velociraptor (pslist, netstat)
+
+4. **Threat Intelligence Validation**
+   - Checked malicious IP/file hash using VirusTotal and OTX
+
+5. **Case Management**
+   - Created and managed incident in TheHive
+
+6. **Response & Containment**
+   - Blocked attacker IP using iptables
+
+7. **Post-Incident Analysis**
+   - Performed 5 Whys and Fishbone root cause analysis
+
+8. **Metrics & Reporting**
+   - Calculated MTTD, MTTR and created dashboard
+
+9. **Final Reporting**
+   - Documented findings and recommendations
+     
 ---
 
 ### 📚 Theory Tasks
@@ -49,7 +79,7 @@ cyart-soc-team/
 | T1 | Threat Hunting Methodologies | SqRR, TaHiTI, hypothesis-driven hunting |
 | T2 | Advanced SOAR Automation | Playbook design, orchestration, SIEM integration |
 | T3 | Post-Incident Analysis | RCA (5 Whys, Fishbone), MTTD/MTTR metrics |
-| T4 | Adversary Emulation | MITRE Caldera, TTP simulation, red-blue collaboration |
+| T4 | Adversary Emulation | Conceptual (MITRE Caldera studied)
 | T5 | Security Metrics & Reporting | Dwell time, false positive rate, executive reporting |
 
 ---
@@ -63,7 +93,17 @@ cyart-soc-team/
 * **P5 — Evidence Analysis:** Collected and analyzed endpoint logs (process, network, process tree).
 * **P6 — Adversary Emulation:** Simulated phishing attack using MITRE Caldera and identified detection gaps.
 * **P7 — Security Metrics:** Created SOC KPI dashboard (MTTD, MTTR, false positives).
-* **P8 — Capstone Project:** Performed full attack simulation (Metasploit), detection, and containment.
+* **P8 — Capstone Project:** Simulated a real-world attack using Metasploit, detected via Wazuh, investigated with Velociraptor, validated using VirusTotal, managed in TheHive, and contained using iptables.
+
+---
+
+## 📊 Key Evidence
+
+![Wazuh Alert](images/Wazuh_dashboard.png)
+![Velociraptor Client](images/Velociraptor_client_connected.png)
+![VirusTotal Result](images/VirusTotal_67_by_69.png)
+![TheHive Case](images/TheHive_Case_#1.png)
+![iptables Block](images/iptables_block.png)
 
 ---
 
