@@ -100,9 +100,11 @@ cyart-soc-team/
 ## 📊 Key Evidence
 
 ![Wazuh Alert](images/Wazuh_dashboard.png)
+
 ![Velociraptor Client](images/Velociraptor_client_connected.png)
+
 ![VirusTotal Result](images/VirusTotal_67_by_69.png)
-![TheHive Case](images/TheHive_Case_#1.png)
+
 ![iptables Block](images/iptables_block.png)
 
 ---
